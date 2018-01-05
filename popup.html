@@ -5,16 +5,42 @@
         <script src="popup.js"></script>
         <style type="text/css">
             body {
-                min-width: 780px; /* your desired width */
+                min-width: 400px; /* your desired width */
                 max-width: 100%;
                 position: relative;
                 vertical-align:middle;
                 align-content: center;
+                background-color:#FFF;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                border-radius: 5px;
+            }
+            #theTitle {
+                /* background-image:url('images/abstract.jpg'); */
+                background-image:url('images/cool-patterns.jpg');
+                color: #03084d;
+                font-size: 2.5em;
+                font-weight: bold;
+                padding: 20px;
+                /* text-align: right; */
+            }
+            #theUrl {
+                border-top: 1px solid black;
+                border-bottom: 1px solid rgb(102, 102, 102);
+                background-color: #FFF;
+                margin: 0px;
+                padding: 3px;
+            }
+            #info {
+                /* border: 1px solid #4a5263;*/
+                background-color: #cacaca; 
+                margin: 0px 0px 0px 0px;
+                padding: 10px;
             }
         </style>
     </head>
     <body>
-        <h1>Information about page:</h1>
+        <div id="theTitle"></div>
         <div id="theUrl"></div>
         <h2 id="info"></h2>
     </body>

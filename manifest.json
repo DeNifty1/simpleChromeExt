@@ -11,8 +11,9 @@
 		"default_title": "Click here!"
 	},
 	"permissions": [
-		// "tab",
-		"activeTab",
-		"<all_urls>"
+		"activeTab"
+	],
+	"web_accessible_resources": [
+		"images/*"
 	]
 }
